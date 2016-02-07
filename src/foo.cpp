@@ -7,8 +7,9 @@
 
 int foo(int a, float b){
        int i= a*b;
+       int c=5;
 
-       return i;
+       return i*c;
 }
 
 

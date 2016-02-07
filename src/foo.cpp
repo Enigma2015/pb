@@ -9,8 +9,8 @@ int foo(int a, float b){
 
        int c = 3;
        int i= a*b*c;
-
-       return i;
+int d = 5;
+       return i*d;
 }
 
 

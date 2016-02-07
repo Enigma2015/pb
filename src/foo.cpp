@@ -6,10 +6,13 @@
  */
 
 int foo(int a, float b){
-       int i= a*b;
-       int c=5;
 
-       return i*c;
+       int c = 3;
+       int i= a*b*c;
+       int d = 5;
+
+
+       return i*d;
 }
 
 
